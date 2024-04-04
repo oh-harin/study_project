@@ -16,11 +16,26 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/test',
-    name: 'test',
-    component: () => import('../views/test.vue')
-  }
-]
+    path: '/practice01',
+    name: 'practice01',
+    component: () => import('../views/practice01.vue')
+  },
+  {
+    path: '/practice02',
+    name: 'practice02',
+    component: () => import('../views/practice02.vue')
+  },
+  {
+    path: '/practice03',
+    name: 'practice03',
+    component: () => import('../views/practice03.vue')
+  },
+  {
+    path: '/practice04',
+    name: 'practice04',
+    component: () => import('../views/practice04.vue')
+  },
+  ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

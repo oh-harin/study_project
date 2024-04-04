@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'TestComponent',
+  name: 'MyComponent01',
   data() {
     return {
       liked: false
